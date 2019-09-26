@@ -1,5 +1,10 @@
 body {
-    background:#583674e5;
+    background:#fefefe;
+}
+.main{
+    width: 100%;
+    max-width: 700px;
+    margin: 14px auto;
 }
 
 h2 {
@@ -7,14 +12,23 @@ h2 {
 }
 
 p {
-    color: darkgoldenrod;
+    color: #333;
 }
 .sectionHeader {
-    color: aqua;
+    color: #50858B;
 }
-.mainHeader {
-    color: tomato;
+.mainHeader, .diaryHeader {
+    color:#78CAD2;
 }
-.diaryHeader {
-    color: pink;
+
+.link {
+    color: #FFC914
+}
+.about{
+    
+}
+.paragraph{
+    padding-left: 20px;
+    border: #FFC914 solid 3px;
+
 }
