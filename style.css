@@ -5,6 +5,7 @@ body {
     width: 100%;
     max-width: 700px;
     margin: 14px auto;
+    padding-top: 20px;
 }
 
 h2 {
@@ -25,10 +26,46 @@ p {
     color: #FFC914
 }
 .about{
-    
+    overflow: hidden;
 }
 .paragraph{
     padding-left: 20px;
     border: #FFC914 solid 3px;
 
+}
+.box{
+    height: 100px;
+    width: 100px;
+    background: yellowgreen;
+    padding: 10px ;
+    border: 10px solid red;
+    position: absolute;
+    box-sizing: border-box;
+    top: 10px;
+    left: 50%;
+}
+
+.top{
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    text-decoration: none;
+    color: #78CAD2;
+}
+.navigation{
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    top: 0;
+    left: 0;
+    background: #fefefe;
+}
+
+.tfasz{
+    width: 200px;
+    max-width: 100%;
+    display: block;
+    float: left;
+    margin: 0 16px 16px 0;
 }
