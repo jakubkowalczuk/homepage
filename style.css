@@ -15,22 +15,19 @@ h2 {
 p {
     color: #333;
 }
-.sectionHeader {
-    color: #50858B;
-}
+
 .mainHeader, .diaryHeader {
     color:#78CAD2;
 }
 
-.link {
-    color: #FFC914
+.navigation__link {
+    color: #FFC914;
 }
 .about{
     overflow: hidden;
 }
 .paragraph{
     padding-left: 20px;
-    border: #FFC914 solid 3px;
 
 }
 .box{
@@ -61,11 +58,24 @@ p {
     left: 0;
     background: #fefefe;
 }
+.about{
 
-.tfasz{
+}
+
+.about__picture{
     width: 200px;
     max-width: 100%;
     display: block;
     float: left;
     margin: 0 16px 16px 0;
+}
+.about_header {
+    color: #50858B;
+}
+
+.about__link{
+    color: #FFC914;
+}
+.about_paragraph {
+    padding-left: 20px;
 }
