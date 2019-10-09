@@ -1,3 +1,9 @@
+html {
+    box-sizing: border-box;
+}
+*, *:after, *:before{
+    box-sizing: inherit;
+}
 body {
     background: #fefefe;
 }
@@ -53,7 +59,7 @@ p {
     color: #78CAD2;
 }
 
-.navigation {
+.site-header {
     position: fixed;
     width: 100%;
     box-sizing: border-box;
@@ -61,6 +67,18 @@ p {
     top: 0;
     left: 0;
     background: #fefefe;
+}
+
+.navigation {
+
+}
+
+.navigation__list {
+    list-style: none;
+    padding: 0;
+}
+.navigation__item {
+    display: inline;
 }
 
 .about {}
@@ -105,4 +123,18 @@ p {
 
 .day__link {
     color: #FFC914;
+}
+.hobby {
+
+}
+.hobby__list {
+    padding: 0;
+    list-style: none;
+}
+.table {
+    width: 100%;
+    border-spacing: 0;  
+}
+.elements {
+    border-style: solid;
 }

@@ -7,12 +7,22 @@
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title>Strona Jakuba Macieja Kowalczuka 21.09.2019 r.</title>
 	<link href="style.css" rel="stylesheet" type="text/css">
+	<link href="normalize.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-	<header class="navigation">
-		<a class="navigation__link" href="index.html">Strona główna</a>
-		<a class="navigation__link" href="podstrona.html">Podstrona</a>
+	<header class="site-header">
+		<nav class="navigation">
+			<ul class="navigation__list">
+				<li class="navigation__item">
+					<a class="navigation__link" href="index.html">Strona główna</a>
+				</li>
+				<li class="navigation__item">
+					<a class="navigation__link" href="podstrona.html">Podstrona</a>
+				</li>
+			</ul>
+		</nav>
+
 	</header>
 
 	<main id="top" class="main">
@@ -48,7 +58,33 @@
 				<a class="day__link" href="#diary__header">Przejdź do pamiętniczka</a>
 			</p>
 
-<p class="about__paragraph about__paragraph--js"></p>
+			<p class="about__paragraph about__paragraph--js"></p>
+			<section class="hobby">
+				<header class="hobby">LISTY</header>
+
+				<ul class="hobby__list">
+					<li>spanie</li>
+					<li>stefan
+
+						<ol>
+							<li>spanie</li>
+							<li>stefan
+								<ol>
+									<li>monka</li>
+								</ol>
+
+							</li>
+						</ol>
+
+					</li>
+				</ul>
+			</section>
+			<section class="plan">
+				<ol>
+					<li>spanie</li>
+					<li>stefan</li>
+				</ol>
+			</section>
 
 		</section>
 		<section id="diary">
@@ -56,7 +92,7 @@
 
 			<section class="day">
 				<h3 class="day__header">
-				Jak stworzyć prawidłowego HTML'a?
+					Jak stworzyć prawidłowego HTML'a?
 				</h3>
 				<p class="day__paragraph"><em> Ipsum jest tekstem stosowanym jako przykładowy wypełniacz w przemyśle
 						poligraficznym. Został
@@ -117,7 +153,42 @@
 				wyglądający odpowiednio. To wszystko czyni „nasz” Lorem Ipsum wolnym od powtórzeń, humorystycznych
 				wstawek czy
 				niecharakterystycznych</p>
-
+		</section>
+		<section class="glossary">
+			<dl>
+				<dt>CSS</dt>
+				<dd>style (to co widzisz jak jest ładne albo brzydkie)</dd>
+				<dt>HTML</dt>
+				<dd>szkiele strony</dd>
+				<dt>JavaScript</dt>
+				<dt>ES6</dt>
+				<dd>rzeczy których się teraz uczę</dd>
+			</dl>
+		</section>
+		<section class="data">
+			<table class="table">
+				<caption>Oceny z I semestru</caption>
+				<thead>
+					<tr>
+						<th class="elements">Imię nazwisko</th>
+						<th class="elements">Ocena</th>
+						<th class="elements">Data</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="elements">Jakub Maciej Kowalczuk</td>
+						<td class="elements">3</td>
+						<td class="elements">04.09.2019</td>
+					</tr>
+					<tr>
+						<td class="elements">Andrzej Kowalczuk</td>
+						<td class="elements">5</td>
+						<td class="elements">10.06.2018</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
 	</main>
 
 	<footer">

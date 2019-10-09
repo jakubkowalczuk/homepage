@@ -41,3 +41,13 @@ switch (age) {
 
 const amIOld = (age > 70) ? 'yes' : 'no';
 console.log(amIOld);
+
+function calculate(x) {
+    x = x + 3
+    console.log(`tradycyjnie ${x}`);
+    return x*7
+}
+console.log(calculate(2));
+
+const calculateFat = x => (x+3)*7;
+console.log(calculateFat(2));
